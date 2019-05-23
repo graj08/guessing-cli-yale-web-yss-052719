@@ -9,5 +9,9 @@ elsif user_guess == true_value
   puts "You guessed the correct number!"
 else
   puts "The computer guessed #{true_value}."
+  user_input = gets.chomp
+  if user_input == "exit"
+    puts "Goodbye!"
+  end
 end
 end
