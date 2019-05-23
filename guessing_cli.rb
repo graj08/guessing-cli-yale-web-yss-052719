@@ -1,4 +1,5 @@
 def run_guessing_game
+  user_guess = 0
 while user_guess != "exit"
 puts "Guess a number between 1 and 6."
 user_guess = gets.chomp
