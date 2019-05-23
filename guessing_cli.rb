@@ -7,3 +7,5 @@ if user_guess == true_value
 else
   puts "The computer guessed #{true_value}."
 end
+end
+
