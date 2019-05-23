@@ -11,4 +11,5 @@ while user_input != "exit"
     user_input = gets.chomp
   end
 end
+puts "Goodbye!"
 end
