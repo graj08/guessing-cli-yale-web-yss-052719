@@ -5,7 +5,6 @@ user_guess = gets.chomp
 if user_guess == "exit"
   puts "Goodbye!"
 else user_guess = user_guess.to_i
-end
 true_value = rand(1..6)
 if user_guess == true_value
   puts "You guessed the correct number!"
@@ -15,5 +14,6 @@ else
   if user_input == "exit"
     puts "Goodbye!"
   end
+end
 end
 end
