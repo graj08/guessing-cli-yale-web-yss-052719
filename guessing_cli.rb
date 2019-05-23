@@ -11,4 +11,3 @@ else
   puts "The computer guessed #{true_value}."
 end
 end
-end
